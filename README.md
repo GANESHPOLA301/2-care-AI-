@@ -1,2 +1,10 @@
-# 2-care-AI-
-Real-Time Multilingual Voice AI Agent  A complete AI-powered clinical appointment booking system that enables real-time multilingual voice conversations between patients and an intelligent healthcare assistant.
+# Real-Time Multilingual Voice AI Agent
+
+## Run Backend
+uvicorn backend.main:app --reload
+
+## Run WebSocket
+uvicorn backend.websocket_server:app --reload --port 8001
+
+## Run Docker
+docker-compose up --build

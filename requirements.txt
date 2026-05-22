@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+openai
+redis
+sqlalchemy
+psycopg2-binary
+python-dotenv
+websockets
+langdetect
+openai-whisper
+numpy
+soundfile
+gtts
+pydantic
